@@ -39,7 +39,7 @@ function cached() {
 }
 
 function download_jemalloc() {
-  url="https://github.com/gaffneyc/heroku-buildpack-jemalloc/releases/download/$STACK/jemalloc-$version.tar.bz2"
+  url="https://github.com/usemast/heroku-buildpack-jemalloc/releases/download/$STACK/jemalloc-$version.tar.bz2"
 
   # Disable exit on command failure so we can provide better error messages
   set +e
